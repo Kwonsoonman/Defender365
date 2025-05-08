@@ -1,14 +1,1 @@
-첫 번째 연습에서는 Microsoft Defender for Identity 센서를 설치하고 구성합니다. 지정된 
-서버에 센서 소프트웨어를 다운로드 및 설치하고, 데이터를 수집하여 Defender for 
-Identity 포털로 보내기 시작하도록 센서를 구성하고, 적절한 기능을 보장하기 위해 설치
-의 유효성을 검사하여 ID 기반 위협을 감지하고 대응하는 조직의 기능을 향상시키는 방
-법을 알아봅니다. 
-Defender for Identity 서비스에 대한 연결을 확인 
-Defender for Identity 센서를 다운로드 
-명령줄에서 스크립트를 사용하여 Defender for Identity 센서를 설치합니다. 
-데이터 수신을 시작하도록 Defender for Identity 센서를 구성합니다(Windows에 대한 감
-사 정책을 포함한 배포 후 구성). 
-설치를 검증합니다.
 
-시작하기 전에 
-이 랩의 연습을 완료하려면 Azure 테넌트 구독 및 Microsoft 365 계정이 필요합니다. 
