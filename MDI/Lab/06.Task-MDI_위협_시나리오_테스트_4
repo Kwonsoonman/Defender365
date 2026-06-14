@@ -1,0 +1,9 @@
+#MDI 위협 시나리오 테스트(기타)
+
+Defender for Identity는 클라이언트 컴퓨터에서 도메인 컨트롤러로의 PSexec, 원격 WMI 및 PowerShell 연결을 검색합니다. 공격자는 도메인 컨트롤러 또는 AD FS(Active Directory Federation Services) 서버에서 원격 명령을 실행하여 지속성을 만들거나, 데이터를 수집하거나, DOS(서비스 거부)를 수행할 수 있습니다.
+다음 명령어를 도메인 사용자 계정으로 로그인된 Client PC에서 명령어를 실행합니다.
+```cmd 
+winrs /r:DC01 "powershell -NonInteractive -OutputFormat xml -NoProfile -EncodedCommand RwBlAHQALQBXAG0AaQBPAGIAagBlAGMAdAAgAFcAaQBuADMAMgBfAFMAaABhAHIAZQAgAC0AUAByAG8AcABlAHIAdAB5ACAATgBhAG0AZQAsAFMAdABhAHQAdQBzACwAUABhAHQAaAAgAC0ATgBhAG0AZQBzAHAAYQBjAGUAIABSAE8ATwBUAFwAYwBpAG0AdgAyACAALQBFAHIAcgBvAHIAQQBjAHQAaQBvAG4AIABDAG8AbgB0AGkAbgB1AGUAIAB8ACAAQwBvAG4AdgBlAHIAdABUAG8ALQBDAFMAVgAgAC0ATgBvAFQAeQBwAGUASQBuAGYAbwByAG0AYQB0AGkAbwBuAA=="
+```
+
+ 06.assets/2026-06-14-13-37-07.png
